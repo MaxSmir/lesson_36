@@ -84,6 +84,7 @@ public:
             return false;
         }
 
+
         m_DSDirLightPassTech.Enable();
 
         m_DSDirLightPassTech.SetPositionTextureUnit(GBuffer::GBUFFER_TEXTURE_TYPE_POSITION);
